@@ -1,0 +1,25 @@
+{
+	"name": "tr_schedule",
+	"properties": {
+		"description": "Everyday 6pm daily once",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_adfls_blob",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-02-23T06:00:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

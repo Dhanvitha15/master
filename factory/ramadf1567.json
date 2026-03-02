@@ -1,0 +1,9 @@
+{
+	"name": "ramadf1567",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ec302999-8e7b-467b-a25a-a78c7626e5a5",
+		"tenantId": "4a90c23a-3ece-4ef2-b857-522f23b8204c"
+	}
+}
