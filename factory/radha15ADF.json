@@ -1,0 +1,9 @@
+{
+	"name": "radha15ADF",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "646cbb84-8769-4f84-86a4-2227658d7397",
+		"tenantId": "b526454c-3122-420c-9a72-ebb7ef792ad7"
+	}
+}
