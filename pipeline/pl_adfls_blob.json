@@ -47,20 +47,6 @@
 						}
 					},
 					"enableStaging": false,
-					"logSettings": {
-						"enableCopyActivityLog": true,
-						"copyActivityLogSettings": {
-							"logLevel": "Info",
-							"enableReliableLogging": true
-						},
-						"logLocationSettings": {
-							"linkedServiceName": {
-								"referenceName": "ls_blob_logging",
-								"type": "LinkedServiceReference"
-							},
-							"path": "logging"
-						}
-					},
 					"translator": {
 						"type": "TabularTranslator",
 						"mappings": [

@@ -1,10 +1,6 @@
 {
 	"name": "ds_adls_input_product",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "ls_adls_adf_demo1",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {

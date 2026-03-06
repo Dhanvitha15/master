@@ -1,10 +1,6 @@
 {
 	"name": "ds_blob_emp_load",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "ls_blob_emp",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {

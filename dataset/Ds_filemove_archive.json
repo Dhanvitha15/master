@@ -1,10 +1,6 @@
 {
 	"name": "Ds_filemove_archive",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "ls_blob_emp",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {

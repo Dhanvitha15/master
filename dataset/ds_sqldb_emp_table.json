@@ -1,10 +1,6 @@
 {
 	"name": "ds_sqldb_emp_table",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "ls_sql_db",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
