@@ -66,7 +66,7 @@
 							"typeProperties": {
 								"variableName": "list_FileNames",
 								"value": {
-									"value": "@item().list_FileNames",
+									"value": "@string(item())",
 									"type": "Expression"
 								}
 							}
@@ -81,7 +81,7 @@
 			}
 		},
 		"annotations": [],
-		"lastPublishTime": "2026-03-11T08:53:58Z"
+		"lastPublishTime": "2026-03-11T09:01:43Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
 }
