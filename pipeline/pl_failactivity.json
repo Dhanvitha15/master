@@ -1,0 +1,26 @@
+{
+	"name": "pl_failactivity",
+	"properties": {
+		"activities": [
+			{
+				"name": "Fail1",
+				"type": "Fail",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"message": {
+						"value": "@pipeline().Pipeline",
+						"type": "Expression"
+					},
+					"errorCode": {
+						"value": "@pipeline().DataFactory",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-03-12T04:27:23Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

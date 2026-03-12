@@ -1,0 +1,55 @@
+{
+	"name": "ds_df_db",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_storedProc",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Emp_key",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Emp_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Name",
+				"type": "varchar"
+			},
+			{
+				"name": "Gender",
+				"type": "varchar"
+			},
+			{
+				"name": "Salary",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Dept_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Is_Active",
+				"type": "char"
+			},
+			{
+				"name": "salary_rank",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "employees_SCD2"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
