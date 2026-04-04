@@ -1,0 +1,17 @@
+{
+	"name": "ls_sql_sales",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "ramaadmin.database.windows.net",
+			"database": "saledatabase1567",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "ramaserver",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDcyRDEwQjA2LTc1OTgtNENEMS1COTY3LTk3RjU4ODcxNjgzQV9iZjc5NTkwZC0zYjdkLTQ0ODAtOTdhOC00ZTAxYTc0NTIzZmUiDQp9"
+		}
+	}
+}
