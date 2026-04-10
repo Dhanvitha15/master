@@ -1,0 +1,9 @@
+{
+	"name": "rama08042027",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7591486d-bd25-4764-854d-83c870964cc7",
+		"tenantId": "b526454c-3122-420c-9a72-ebb7ef792ad7"
+	}
+}
